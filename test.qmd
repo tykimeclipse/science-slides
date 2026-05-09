@@ -15,11 +15,13 @@ html-math-method:
 
 ## 오늘의 질문
 
-전류는 무엇이 흐르는 것일까?
+전류는 무엇이 흐르는 것일까?<br>
+이것은 무엇일까요?
 
 ## 전류의 의미
 
 전류는 전하의 흐름이다.
+그러면 전하는 뭘까?
 
 ::: {.fragment}
 금속 도선에서는 주로 자유 전자의 이동과 관련된다.
@@ -54,6 +56,6 @@ $$
 
 {{< video https://www.youtube.com/embed/E43-CfukEgs
     title="실험 영상"
-    width="100%"
-    height="85%"
+    width="85%"
+    height="100%"
 >}}
