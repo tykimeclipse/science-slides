@@ -6,6 +6,9 @@ format:
     slide-number: true
     chalkboard: true
     preview-links: auto
+    include-in-header: mathjax-mhchem.html
+html-math-method:
+  method: mathjax
 ---
 
 ## 오늘의 질문
@@ -29,3 +32,35 @@ format:
 $$
 V = IR
 $$
+
+## 화학반응식
+
+물의 전기분해 반응식은 다음과 같다.
+$$
+\ce{2H2O -> 2H2 + O2}
+$$
+
+$$
+\ce{NaCl -> Na+ + Cl-}
+$$
+
+$$
+\ce{CaCO3(s) -> CaO(s) + CO2(g)}
+$$
+
+## 실험 영상
+
+<div style="display:flex; justify-content:center;">
+
+<iframe
+  width="960"
+  height="540"
+  src="https://www.youtube.com/embed/E43-CfukEgs"
+  title="YouTube video player"
+  frameborder="0"
+  referrerpolicy="strict-origin-when-cross-origin"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+  allowfullscreen>
+</iframe>
+
+</div>
