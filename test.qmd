@@ -1,11 +1,13 @@
 ---
-title: "전류와 전압"
+title: "Portrait 테스트 슬라이드"
 format:
   revealjs:
     theme: simple
     slide-number: true
+    width: 794
+    height: 1123
+    margin: 0.04
     chalkboard: true
-    preview-links: auto
     include-in-header: mathjax-mhchem.html
 html-math-method:
   method: mathjax
