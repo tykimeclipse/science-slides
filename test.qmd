@@ -1,0 +1,31 @@
+---
+title: "전류와 전압"
+format:
+  revealjs:
+    theme: simple
+    slide-number: true
+    chalkboard: true
+    preview-links: auto
+---
+
+## 오늘의 질문
+
+전류는 무엇이 흐르는 것일까?
+
+## 전류의 의미
+
+전류는 전하의 흐름이다.
+
+::: {.fragment}
+금속 도선에서는 주로 자유 전자의 이동과 관련된다.
+:::
+
+## 전압의 의미
+
+전압은 전류를 흐르게 하는 전기적 조건과 관련된다.
+
+## 간단한 수식
+
+$$
+V = IR
+$$

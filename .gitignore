@@ -1,0 +1,11 @@
+# Quarto cache and temp files
+.quarto/
+_freeze/
+*_cache/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode/
