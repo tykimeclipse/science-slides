@@ -1,0 +1,12 @@
+.quiz {
+    color: transparent;
+    border-bottom: 2px solid black;
+    display: inline-block;
+    /*min-width: 6em;*/
+    cursor: pointer;
+}
+
+.quiz.revealed {
+    color: inherit;
+    border-bottom: none;
+}

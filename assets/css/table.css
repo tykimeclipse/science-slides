@@ -1,0 +1,14 @@
+.reveal table {
+    border-collapse: collapse;
+    border: 1px solid #555;
+}
+
+.reveal table th,
+.reveal table td {
+    border: 1px solid #555;
+    padding: 0.35em 0.6em;
+}
+
+.reveal table tr:last-child td {
+    border-bottom: 1px solid #555;
+}

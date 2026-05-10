@@ -1,17 +1,25 @@
 ---
-title: "Portrait 테스트 슬라이드"
+title: "테스트 슬라이드"
 format:
   revealjs:
     theme: simple
     slide-number: true
-    width: 794
-    height: 1123
+    width: 1400
+    height: 900
     margin: 0.04
     chalkboard: true
-    include-in-header: mathjax-mhchem.html
+    include-in-header: includes/mathjax-mhchem.html
+    css: 
+      - assets/css/interactive-quiz.css
+      - assets/css/table.css
+     # - assets/css/normal.css
+    include-after-body: includes/quiz-toggle.html
+filters:
+  - filters/quiz.lua
 html-math-method:
   method: mathjax
 ---
+
 
 ## 오늘의 질문
 
@@ -56,6 +64,39 @@ $$
 
 {{< video https://www.youtube.com/embed/E43-CfukEgs
     title="실험 영상"
-    width="85%"
-    height="100%"
+    width="100%"
+    height="85%"
 >}}
+
+## 퀴즈 테스트
+
+!!질량보존법칙!!: 화학반응 전후에 질량의 변화가 없다,라는 법칙이다.
+![image](2026-05-10-18-02-48.png)
+![image](../2026-05-10-20-05-18.png)
+../2026-05-10-20-06-33.png
+## 표 테스트
+::: {style="font-size: 0.7em;"}
+
+| 물질 | 상태 | 특징 |
+|---|---|---|
+| 산소 | 기체 | 연소를 돕는다 |
+| 철 | 고체 | 자성을 띤다 |
+<br>
+
+| 물질 | 상태 | 질량 |
+|:---|:---:|---:|
+| 산소 | 기체 |!!32!!|
+| 철 | 고체 |!!56!!|
+<br>
+
+| 물리량 | 기호 | 단위 |
+|---|---|---|
+| 힘 | $F$ | N |
+| 질량 | $m$ | kg |
+<br>
+
+| 반응 | 생성물 |
+|---|---|
+| $\ce{2H2 + O2 -> 2H2O}$ | 물 |
+
+
