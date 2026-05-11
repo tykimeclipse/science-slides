@@ -4,3 +4,15 @@
     display: inline-block;
     min-width: 6em;
 }
+.normal-only {
+    display: none !important;
+}
+
+.quiz-only {
+    display: block !important;
+}
+.dual-image img {
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+}

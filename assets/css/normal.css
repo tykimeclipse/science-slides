@@ -1,3 +1,15 @@
 .quiz {
     color: inherit;
 }
+.quiz-only {
+    display: none !important;
+}
+
+.normal-only {
+    display: block !important;
+}
+.dual-image img {
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
