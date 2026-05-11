@@ -1,1 +1,9 @@
-<script src="assets/js/quiz-toggle.js"></script>
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+  document.querySelectorAll(".quiz").forEach((el) => {
+    el.addEventListener("click", () => {
+      el.classList.toggle("revealed");
+    });
+  });
+});
+</script>

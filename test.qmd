@@ -9,14 +9,16 @@ format:
     margin: 0.04
     chalkboard: true
     include-in-header: includes/mathjax-mhchem.html
+    include-after-body: includes/quiz-toggle.html
     css: 
       #- assets/css/normal.css
       - assets/css/quiz.css
       # - assets/css/interactive-quiz.css
       - assets/css/table.css
-    include-after-body: includes/quiz-toggle.html
+    
 filters:
   - filters/quiz.lua
+
 html-math-method:
   method: mathjax
 ---
