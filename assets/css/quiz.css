@@ -37,3 +37,8 @@
     margin-left: auto;
     margin-right: auto;
 }
+
+@page {
+    size: A4 landscape;
+    margin: 0;
+}
